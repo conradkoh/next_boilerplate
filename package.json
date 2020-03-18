@@ -29,6 +29,7 @@
   "scripts": {
     "dev": "next -p 8084",
     "build": "next build",
-    "serve": "next start -p 8084"
+    "serve": "next start -p 8084",
+    "update": "cd nextjslib && git submodule init && git submodule update && git pull origin master"
   }
 }
