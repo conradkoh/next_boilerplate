@@ -1,35 +1,35 @@
 {
-  "name": "next_boilerplate",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "@material-ui/core": "^4.9.8",
-    "@material-ui/icons": "^4.5.1",
-    "@material-ui/styles": "^4.9.6",
-    "@zeit/next-css": "^1.0.1",
-    "array-move": "^2.2.0",
-    "axios": "^0.19.2",
-    "babel-plugin-styled-components": "^1.10.6",
-    "bootstrap": "^4.3.1",
-    "next": "^9.3.4",
-    "next-redux-wrapper": "^4.0.1",
-    "react": "^16.13.1",
-    "react-bootstrap": "^1.0.0",
-    "react-dom": "^16.13.1",
-    "react-redux": "^7.1.3",
-    "react-sortable-hoc": "^1.10.1",
-    "redux": "^4.0.4",
-    "redux-persist": "^6.0.0",
-    "redux-thunk": "^2.3.0",
-    "styled-components": "^4.4.1",
-    "sweetalert2": "^9.10.9",
-    "universal-cookie": "^4.0.3"
-  },
-  "scripts": {
-    "dev": "next -p 8084",
-    "build": "next build",
-    "serve": "next start -p 8084",
-    "update": "cd nextjslib && git submodule init && git submodule update && git pull origin master"
-  }
+    "name": "next_boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@material-ui/core": "^4.9.8",
+        "@material-ui/icons": "^4.5.1",
+        "@material-ui/styles": "^4.9.6",
+        "@zeit/next-css": "^1.0.1",
+        "array-move": "^2.2.0",
+        "axios": "^0.19.2",
+        "babel-plugin-styled-components": "^1.10.6",
+        "bootstrap": "^4.3.1",
+        "next": "^9.3.4",
+        "next-redux-wrapper": "^4.0.1",
+        "react": "^16.13.1",
+        "react-bootstrap": "^1.0.0",
+        "react-dom": "^16.13.1",
+        "react-redux": "^7.1.3",
+        "react-sortable-hoc": "^1.10.1",
+        "redux": "^4.0.4",
+        "redux-persist": "^6.0.0",
+        "redux-thunk": "^2.3.0",
+        "styled-components": "^4.4.1",
+        "sweetalert2": "^9.10.9",
+        "universal-cookie": "^4.0.3"
+    },
+    "scripts": {
+        "dev": "next -p 8084",
+        "build": "next build",
+        "serve": "next start -p 8084",
+        "install": "git submodule init && git submodule update && cd nextjslib && git pull origin master && cd .."
+    }
 }
