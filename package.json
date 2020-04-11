@@ -30,6 +30,6 @@
         "dev": "next -p 8084",
         "build": "next build",
         "serve": "next start -p 8084",
-        "install": "git submodule init && git submodule update && cd nextjslib && git pull origin master && cd .."
+        "update": "git submodule init && git submodule update && cd nextjslib && git pull origin master && cd .."
     }
 }
